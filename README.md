@@ -1,5 +1,6 @@
-# WVC (Life Edition) Data Collector
-A project to get better data analysis from the WVC R3 Life edition inverters. (Currently tested on the WVC700 R3 Life Edition)
+# KD- WVC R3 Inverter Data to Home Assistant using MQTT
+A project to get better data analysis from the WVC R3 Life edition inverters. (Currently tested and working  on the WVC700 R3 Life Edition)
+Thanks to DamianBurrin for his project that got me started.
 ![Inked20230415_133150_LI](https://user-images.githubusercontent.com/18092613/234235327-2c00d303-561b-4173-b354-c25f6d245ed6.jpg)
 
 ![20230415_133114](https://user-images.githubusercontent.com/18092613/234233316-eb3c3f2d-cd98-4a34-8e79-3b9246bc3d0d.jpg)
