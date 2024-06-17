@@ -50,7 +50,7 @@ Only Ground and HF-LPT270 UART TX to the USB-TTL RX are required to be connected
 (MAKE SURE 3.3V is selected on the USB-TTL board or the magic smoke will appear.)
 ![UART reader](https://github.com/petermnz1/KD-WVC-R3-Inverter-/assets/91760855/ac9df493-de3d-46f9-a456-889a6b4cccf6)
 
-This is the data received.
+This is the data received.  Note: You only get data if a solar panel is connected and working (No data at night).
 ![Reader output on putty software](https://github.com/petermnz1/KD-WVC-R3-Inverter-/assets/91760855/aacdd699-e53f-4673-ba47-b270e2f912db)
 
 <b>Implementing The ESP32</b>
@@ -62,11 +62,13 @@ Using LOLIN ESP32 - A mini wifi boards based on WEMOS ESP32-S2FN4R2S2 called S2 
 Ground to GND, 3.3v to 3.3v and HF-LPT270 UART TX to the ESP32  RX (GPIO 37).</b>
 ![ESP32 LOLIN S2 connection](https://github.com/petermnz1/KD-WVC-R3-Inverter-/assets/91760855/60f2f46d-1033-4f96-b0e2-a7e6fda64d99)
 
-I've not connected anything from the HF-LPT270 UART RX pin of the Inverter back to the ESP32 TX yet as I've not worked out what data to send to the Inverter yet to change the power setting.</br>
+I've not connected from the HF-LPT270 UART RX pin of the Inverter to the ESP32 TX yet as when I do it stops sending data???</br>
+I've not worked out why this occurs or what command to send to the Inverter yet to change the power setting.</br>
 This is received when power adj command sent via phone app. </br>+ILOPDATA=ICA,Power_adjustment,100</br>
-I'm hoping this is the echo of the change command.</br>
+I'm hoping this is the echo of the change command???</br>
 
 I then wrote the Arduino code with the help of ChatGPT and many hours trial and error.</br>
+I'm no expert but it works surprising well.</br>
 Below is the MQTT output. It updates approx every ~5 seconds.
 
 ![Inverter MQTT](https://github.com/petermnz1/KD-WVC-R3-Inverter-/assets/91760855/c3ae1be8-b13b-4ee8-a39c-6e4fa1d080b5)
