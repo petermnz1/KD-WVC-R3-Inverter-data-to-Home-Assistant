@@ -1,0 +1,38 @@
+mqtt: # ESP32 Inverter sensor
+   sensor:  
+    - name: "PV_Volt"
+      state_topic: "tele/Inverter/PV_Volt"
+      icon: mdi:solar-power-variant-outline
+      unit_of_measurement: "V"
+      qos: 2
+     
+    - name: "PV_Current"
+      state_topic: "tele/Inverter/PV_Current"
+      icon: mdi:solar-power-variant-outline
+      unit_of_measurement: "A"
+      qos: 2
+      
+    - name: "PV_Power"
+      state_topic: "tele/Inverter/PV_Power"
+      icon: mdi:solar-power-variant-outline
+      unit_of_measurement: "w"
+      qos: 2  
+      
+    - name: "Inverter_Power_Level"
+      state_topic: "tele/Inverter/Power_adjustment"
+      icon: mdi:lightning-bolt-outline
+      qos: 2 
+      
+    - name: "Inverter_Temp"
+      state_topic: "tele/Inverter/Temperature"
+      unit_of_measurement: "°C"
+      device_class: temperature
+      qos: 2  
+      
+    - name: "Inverter_RXrssi"
+      state_topic: "tele/Inverter/Rxrssi"
+      icon: mdi:wifi
+      value_template: "{{(value | round(0) )}}"
+      device_class: signal_strength
+      unit_of_measurement: "dBm"
+      qos: 2  
