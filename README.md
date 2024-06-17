@@ -67,7 +67,12 @@ To get this MQTT output. It updates approx every ~5 seconds.
 
 ![Inverter MQTT](https://github.com/petermnz1/KD-WVC-R3-Inverter-/assets/91760855/c3ae1be8-b13b-4ee8-a39c-6e4fa1d080b5)
 
-  
+The uploaded code shows as separate files but they should be tabbed as below.
+![image](https://github.com/petermnz1/KD-WVC-R3-Inverter-/assets/91760855/f997d437-cbeb-49ca-809a-b2d49caab4e9)
+
+Add  inverter.yaml to Home Assistant get MQTT data.
+
+![image](https://github.com/petermnz1/KD-WVC-R3-Inverter-/assets/91760855/52d0827c-fb84-49fa-b723-4045d9057658)
 
 
 
