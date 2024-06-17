@@ -53,7 +53,8 @@ This is the data received.
 ![Reader output on putty software](https://github.com/petermnz1/KD-WVC-R3-Inverter-/assets/91760855/aacdd699-e53f-4673-ba47-b270e2f912db)
 
 <b>Implementing The ESP32</b>
-Using a LOLIN ESP32 S2 mini about US$2  </b>
+Using LOLIN ESP32 - A mini wifi boards based on WEMOS ESP32-S2FN4R2S2 called S2 mini about US$2  </b>
+![image](https://github.com/petermnz1/KD-WVC-R3-Inverter-data-to-Home-Assistant/assets/91760855/50c66ad2-d07a-47cb-945d-dc95ee12eb36)
 
 ![Overview connection](https://github.com/petermnz1/KD-WVC-R3-Inverter-/assets/91760855/23ae119b-c5d2-40c2-ba2c-c185eb4a7457)
 
