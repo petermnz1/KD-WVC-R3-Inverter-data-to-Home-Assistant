@@ -41,9 +41,10 @@ I soldered to the HF-LPT270 UART TX and RX pins along with 3.3v and ground to po
 ![Inverter connection pins](https://github.com/petermnz1/KD-WVC-R3-Inverter-/assets/91760855/8658950a-5c1c-4661-908d-2b0422e6b825)
 </br>
 </br>
-</br>
-I then tested UART output using Putty software on my pc with a cheap aliexpress USB to TTL reader.
-![USB to TTL](https://github.com/petermnz1/KD-WVC-R3-Inverter-/assets/91760855/56448777-4f6f-43eb-bf32-e0955192f33f)
+I then tested UART output using Putty software on my pc with a cheap aliexpress USB to TTL reader.</br>
+![USB to TTL](https://github.com/petermnz1/KD-WVC-R3-Inverter-/assets/91760855/56448777-4f6f-43eb-bf32-e0955192f33f)</br>
+These are the settings used.</br>
+![image](https://github.com/petermnz1/KD-WVC-R3-Inverter-data-to-Home-Assistant/assets/91760855/63bae9db-117a-4bb6-82a7-06ade7099d56)</br>
 
 Only Ground and HF-LPT270 UART TX to the USB-TTL RX are required to be connected.</br>
 (MAKE SURE 3.3V is selected on the USB-TTL board or the magic smoke will appear.)
